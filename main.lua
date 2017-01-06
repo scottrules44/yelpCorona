@@ -1,4 +1,4 @@
-local yelp = require("yelp")
+local yelp = require("plugin.yelp") -- or require("yelp") if you are using local one
 yelp.init("Consumer Key", "Consumer Secret", "Token", "Token Secret")
 function print_r ( t )  
     local print_r_cache={}
